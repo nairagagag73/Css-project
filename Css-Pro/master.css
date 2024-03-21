@@ -1,0 +1,75 @@
+ .body{
+       background-color: rgb(90, 99, 142);
+ }
+ .links{
+    background-color: rgb(20, 20, 65);
+    width: auto;
+    height: 50px;
+    margin: -15px;
+    word-spacing: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ a{
+    margin: 20px;
+    color: rgb(200, 10, 185);
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+ }
+ a:hover{
+    color: blue;cursor: pointer;
+ }
+ .pro{
+    display: inline-block;
+    color: grey;
+ }
+ .parg{
+    color: grey;
+    display: inline;
+    padding-left: 20px;
+ }
+ .container{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .container .inputs{ 
+    display: flex;
+    align-content: center;
+ }
+ .container .inputs form .main{
+    padding: 20px;
+    display: block;
+    margin-bottom: 30px;
+    width: 400px;
+    border-radius: 15px;
+    text-align: 40%;
+ }
+ .ran{
+    display: inline;
+    width: 200px;
+ }
+ .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .button{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+ }
+ .btn{
+    background-color: blueviolet;
+ }
+ .imgs{
+    width: 100%;
+    display: flex;
+ }
+ .img1{
+    width: 50%;
+ }
